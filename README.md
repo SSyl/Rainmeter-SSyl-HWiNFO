@@ -16,8 +16,8 @@ A system monitoring widget for Rainmeter that displays hardware information usin
 
 ## Requirements
 
-- **Rainmeter 8+**
-- **HWiNFO64/32** - Hardware monitoring software
+- **Rainmeter 4.5+**
+- **HWiNFO64/32 8.0+** - Hardware monitoring software
 - **FrostedGlass Plugin** (optional, but you'll have to edit the "Combined" file to disable Frosted Glass) - For Windows 10/11 acrylic blur effects
 
 ## Setup
