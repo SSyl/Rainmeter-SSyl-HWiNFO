@@ -24,7 +24,6 @@ A system monitoring widget for Rainmeter that displays hardware information usin
 
 1. Install [HWiNFO64](https://www.hwinfo.com/)
 2. In Sensor Settings, go to the HWiNFO Gadget tab and select each sensor you need (as defined in `Combined.ini`)
-2. Configure HWiNFO to output the sensors you want to monitor
 3. Download and extract this skin to your Rainmeter Skins folder
 4. Right-click the skin and select "Display Sensors" to get sensor #s.
 5. Edit the sensor index variables in `Combined.ini` to match your hardware
@@ -37,27 +36,6 @@ Edit the `[Variables]` section in `Combined.ini` to customize:
 - **HWiNFO Sensor Indices**: Match these to your specific hardware sensors
 - **Network Speeds**: Set your internet connection speeds for proper scaling
 - **Layout Variables**: Adjust spacing, positioning, and grid layout
-- **Mouse Actions**: Customize background click behaviors
-
-## File Structure
-
-```
-SSyliNFO/
-├── Combined/
-│   └── Combined.ini          # Main combined widget
-├── CPU/
-│   └── CPU_Extended.ini      # Individual CPU widget  
-├── GPU/
-│   └── GPU.ini              # Individual GPU widget
-├── RAM/
-│   └── RAM.ini              # Individual RAM widget
-├── Network/
-│   ├── Download.ini         # Download speed widget
-│   └── Upload.ini           # Upload speed widget
-└── ShowReg/
-    ├── ShowReg.ini          # Sensor display utility
-    └── HWiNFORegistryReader.lua
-```
 
 ## Customization
 
